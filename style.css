@@ -1,4 +1,29 @@
-html, body {
-  height: 100%;
-  width: 100%;
+body{
+  background-image: url("https://images.unsplash.com/photo-1489648022186-8f49310909a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2110&q=80");
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  color: #f5f6f7;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px
+}
+
+#description {
+  font-style: italic;
+}
+
+h1, #description, footer {
+  text-align: center;
+}
+
+.form {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.75);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px
 }
