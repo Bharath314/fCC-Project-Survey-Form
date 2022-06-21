@@ -15,11 +15,16 @@ body{
   min-width: 18.75rem;
 }
 
+label {
+  display: block;
+  margin: 1rem 0;
+}
+
 h1 {
   font-size: 3.125rem;
   color: orange;
-
 }
+
 #description {
   font-style: italic;
   margin-bottom: 0.5rem;
@@ -30,11 +35,13 @@ h1, #description, footer {
 }
 
 input, textarea, select {
-  margin: 10px 0 0 0;
-	width: 100%;
+  margin: 0.625rem 0 0 0;
+  width: 100%;
   min-height: 1.25rem;
   font-family: 'Roboto', sans-serif;
+  border: 0.5px solid rgba(0, 0, 0, 0.75);
 }
+
 
 input[type="radio"], input[type="checkbox"] {
   width: unset;
@@ -45,7 +52,9 @@ input[type="radio"], input[type="checkbox"] {
 fieldset {
   margin: auto 0;
   border: none;
+  padding: 2rem 0;
 }
+
 
 /* fieldset:first-of-type {
   border-top: 3px solid; 
@@ -55,14 +64,14 @@ fieldset:not(:last-of-type) {
   border-bottom: 3px solid ;
 }
 
-p{
+/* p{
   margin: 1rem 0 0.25rem 0;
   font-size: 18px
-}
-
+} */
+/* 
 #number {
     margin-bottom: 0.5em;
-}
+} */
 
 footer {
   padding: 2px;
