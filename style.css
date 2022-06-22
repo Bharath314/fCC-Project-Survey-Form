@@ -37,17 +37,26 @@ h1, #description, footer {
 input, textarea, select {
   margin: 0.625rem 0 0 0;
   width: 100%;
-  min-height: 1.25rem;
+  min-height: 1.5rem;
   font-family: 'Roboto', sans-serif;
-  border: 0.5px solid rgba(0, 0, 0, 0.75);
+  border: 0.5px solid white;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
 }
+
+
 
 
 input[type="radio"], input[type="checkbox"] {
   width: unset;
   margin: 0 0.5em 0 0;
   vertical-align: middle;
+  border: 0.5px solid white;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
 }
+
+
 
 fieldset {
   margin: auto 0;
@@ -55,23 +64,9 @@ fieldset {
   padding: 2rem 0;
 }
 
-
-/* fieldset:first-of-type {
-  border-top: 3px solid; 
-} */
-
 fieldset:not(:last-of-type) {
   border-bottom: 3px solid ;
 }
-
-/* p{
-  margin: 1rem 0 0.25rem 0;
-  font-size: 18px
-} */
-/* 
-#number {
-    margin-bottom: 0.5em;
-} */
 
 footer {
   padding: 2px;
