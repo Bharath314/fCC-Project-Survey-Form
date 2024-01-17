@@ -10,18 +10,13 @@ body{
   width: 60vw; 
   background-color: rgba(0, 0, 0, 0.75);
   margin: 0 auto;
-  padding: 20px;
+  padding: 1.25rem;
   max-width: 40.625rem;
   min-width: 18.125rem;
 }
 
 label {
-  display: block;
   margin: 1rem 0;
-}
-
-label {
-  
 }
 
 h1 {
@@ -48,9 +43,6 @@ input, textarea, select {
   background-color: rgba(0, 0, 0, 0.75);
   color: white;
 }
-
-
-
 
 input[type="radio"], input[type="checkbox"] {
   width: unset;
